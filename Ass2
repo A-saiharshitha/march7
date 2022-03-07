@@ -1,0 +1,6 @@
+n=input('enter a word')
+Print (n[1:-1])
+
+Output:
+enter a wordAditya degree college 
+ditya degree college
