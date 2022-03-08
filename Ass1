@@ -1,0 +1,5 @@
+x = [4,7,9,10,6,11,3] 
+index = [0]*len(x)
+ for i in range(len(x)): 
+index[x.index(min(x))] = i
+ x[x.index(min(x))] = max(x)+1
